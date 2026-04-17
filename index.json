@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "updated": "2026-04-17",
+  "entries": [
+    {
+      "name": "superpowers",
+      "description": "Battle-tested agent skills from Anthropic — TDD, debugging, verification, planning",
+      "url": "https://github.com/anthropics/superpowers",
+      "tags": ["productivity", "workflow", "testing", "debugging"],
+      "author": "anthropics",
+      "agents": ["claude-code"]
+    },
+    {
+      "name": "awesome-claude-skills",
+      "description": "Curated list of community Claude Code skills — plugins, hooks, slash commands",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "tags": ["awesome-list", "community"],
+      "author": "hesreallyhim",
+      "agents": ["claude-code"]
+    },
+    {
+      "name": "claude-code-skills",
+      "description": "Reference skill collection covering common agent tasks",
+      "url": "https://github.com/anthropics/claude-code-skills",
+      "tags": ["reference", "productivity"],
+      "author": "anthropics",
+      "agents": ["claude-code"]
+    },
+    {
+      "name": "code-review",
+      "description": "Automated code review skill — scans diffs for bugs, style, and security issues",
+      "url": "https://github.com/balgaly/code-review-skill",
+      "tags": ["code-review", "quality"],
+      "author": "balgaly",
+      "agents": ["claude-code", "cursor"]
+    },
+    {
+      "name": "skit",
+      "description": "Cross-platform package manager for AI agent skills — install, sync, share",
+      "url": "https://github.com/balgaly/skit",
+      "tags": ["cli", "package-manager", "meta"],
+      "author": "balgaly",
+      "agents": ["claude-code", "cursor", "windsurf"]
+    }
+  ]
+}

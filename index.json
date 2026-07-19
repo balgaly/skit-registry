@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated": "2026-04-17",
+  "updated": "2026-07-18",
   "entries": [
     {
       "name": "superpowers",
-      "description": "Battle-tested agent skills from Anthropic — TDD, debugging, verification, planning",
-      "url": "https://github.com/anthropics/superpowers",
+      "description": "Battle-tested agent skills for TDD, debugging, verification, and planning",
+      "url": "https://github.com/obra/superpowers",
       "tags": ["productivity", "workflow", "testing", "debugging"],
-      "author": "anthropics",
+      "author": "obra",
       "agents": ["claude-code"]
     },
     {
@@ -19,20 +19,12 @@
       "agents": ["claude-code"]
     },
     {
-      "name": "claude-code-skills",
-      "description": "Reference skill collection covering common agent tasks",
-      "url": "https://github.com/anthropics/claude-code-skills",
+      "name": "anthropic-skills",
+      "description": "Official reference collection of Agent Skills",
+      "url": "https://github.com/anthropics/skills",
       "tags": ["reference", "productivity"],
       "author": "anthropics",
       "agents": ["claude-code"]
-    },
-    {
-      "name": "code-review",
-      "description": "Automated code review skill — scans diffs for bugs, style, and security issues",
-      "url": "https://github.com/balgaly/code-review-skill",
-      "tags": ["code-review", "quality"],
-      "author": "balgaly",
-      "agents": ["claude-code", "cursor"]
     },
     {
       "name": "skit",
@@ -41,6 +33,14 @@
       "tags": ["cli", "package-manager", "meta"],
       "author": "balgaly",
       "agents": ["claude-code", "cursor", "windsurf"]
+    },
+    {
+      "name": "hermes-tweet",
+      "description": "Hermes Agent X/Twitter plugin skill with read-first workflows and approval-gated actions. Not affiliated with X Corp.",
+      "url": "https://github.com/Xquik-dev/hermes-tweet",
+      "tags": ["hermes-agent", "x-twitter", "social-media", "automation"],
+      "author": "Xquik-dev",
+      "agents": ["claude-code", "codex"]
     }
   ]
 }

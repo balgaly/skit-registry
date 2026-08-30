@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-04-17",
+  "updated": "2026-08-30",
   "entries": [
     {
       "name": "superpowers",
@@ -29,7 +29,7 @@
     {
       "name": "code-review",
       "description": "Automated code review skill — scans diffs for bugs, style, and security issues",
-      "url": "https://github.com/balgaly/code-review-skill",
+      "url": "https://github.com/balgaly/snirs-skills",
       "tags": ["code-review", "quality"],
       "author": "balgaly",
       "agents": ["claude-code", "cursor"]
